@@ -1,0 +1,54 @@
+How To: Change the operating system's virtual memory settings:-
+
+Summary
+Instructions provided describe how to adjust the system's virtual memory settings. For the maximum benefit, set this value to the maximum available on the Windows operating system. For Windows 2000 and XP, the maximum available is 4096MB (4GB).
+
+Note:
+Windows 2003 Server, Windows 2008 Server, Windows Vista, Windows 7 and Windows 10 can be set higher values than 4GB. See the link in the Related Links section below.
+Procedure
+The drive selected for the virtual memory should have enough free space to store the page file, as defined by the initial and maximum settings. If the amount of free space on the drive is less than the virtual memory settings, the page file size uses all the available drive space. In that case, clear some space on the drive or set the virtual memory to another drive.
+
+Windows 10:
+See the Microsoft Help topic: "How to Increase Virtual Memory in Windows 10: A Quick Guide".
+
+ 
+Windows 7, Windows Server 2008 and Windows Vista:
+Click Start > Control Panel > System.
+Under Tasks, click Advanced system settings.
+In the System Properties dialog, click the Advanced tab.
+Click Settings under Performance.
+Click the Advanced tab, and click Change under Virtual Memory.
+Select the drive to use to store the paging file.
+Select Custom size and set Initial size (MB) and Maximum size (MB). For the initial size, Microsoft recommends using the recommended value in the Total paging file size for all drives box.
+Click Set, and click OK twice.
+Click Restart Now.
+
+
+Windows XP and Windows Server 2003:
+Click Start > Settings > Control Panel.
+Double-click the System icon.
+In the System Properties dialog, click the Advanced tab.
+Click Settings under Performance.
+In the Performance Options dialog, click the Advanced tab, and under Virtual memory, click Change.
+In the Virtual Memory dialog box, select a drive to store the paging file.
+Set Initial size (MB) and Maximum size. For the initial size, Microsoft recommends using the recommended value in the Total paging file size for all drives box.
+Click Set, and click OK twice.
+Click Restart Now.
+
+
+Note:
+To have Windows select the best paging file size, click System managed size in the Virtual Memory dialog box.
+
+Windows 2000:
+Click Start > Settings > Control Panel.
+Double-click the System icon.
+In the System Properties dialog box, click the Advanced tab and click Performance Options.
+In the Performance Options dialog, under Virtual memory, click Change.
+In the Virtual memory dialog box, select a drive.
+Under Paging file size for selected drive, type new values for initial and maximum sizes for the disk.
+Click Set, click OK twice.
+In the Performance Options dialog, click OK.
+Click OK in the System Properties dialog, and click Yes in the System Settings Change dialog to restart the computer.
+
+Note:
+When the Virtual Memory dialog box is first displayed, it shows the initial and maximum page file sizes stored on each disk. 
