@@ -1,1 +1,43 @@
+**** [Solved] CredSSP Encryption Oracle Remediation ****
+
+A remote code execution vulnerability exists in the Credential Security Support Provider protocol (CredSSP). An attacker who successfully exploited this vulnerability could relay user credentials and use them to execute code on the target system.
+CredSSP is an authentication provider which processes authentication requests for other applications; any application which depends on CredSSP for authentication may be vulnerable to this type of attack.
+
+**** 1. RDP SESSION:-
+---------------------
+This has been reported to cause an error thrown by Windows RDP as below:
+---> Screenshot URL: https://prnt.sc/136s1b6
+
+**** 2. WORKAROUND:-
+--------------------
+Use the group policy settings changes described below to rollback the changes to ‘Vulnerable’ state to allow RDP access.
+
+1. Open Group Policy Editor, by executing gpedit.msc
+
+2. Policy path: Computer Configuration -> Administrative Templates -> System -> Credentials Delegation
+
+Run gpedit.msc and expand Administrative Templates
+
+---> Screenshot URL: https://prnt.sc/136s4r2
+
+Expand System
+
+---> Screenshot URL: https://prnt.sc/136s6ot
+
+Expand Credential Delegation
+
+---> Screenshot URL: https://prnt.sc/136s856
+
+Edit Encryption Oracle Remediation
+
+---> Screenshot URL: https://prnt.sc/136sa13
+
+Select Enabled and change Production Level to Vulnerable
+
+---> ---> Screenshot URL: Screenshot URL: https://prnt.sc/136sbr8
+
+**** 3. Run the command gpupdate /force to apply group policy settings.
+
+
+**** 4. Your remote desktop connection will be working fine now.
 
