@@ -1,0 +1,17 @@
+**** You can follow the below steps to add IP address in Windows Firewall ****
+
+On the Start menu, Click ‘Windows Firewall with Advanced Security’.  --->  ( Screenshot: https://prnt.sc/136r05f )
+
+Click the ‘Advanced settings’ option in the sidebar.  --->  ( Screenshot: : https://prnt.sc/136r4nm )
+
+On the left side, click the option ‘Inbound Rules’.  ---> ( Screenshot: https://prnt.sc/136r7s4 )
+
+On the right, under the section ‘Actions’, click on the option ‘New Rule’. Windows Firewall shows you the New Inbound Rule Wizard.  --->  ( Screenshot: https://prnt.sc/136rai9 )
+
+A new window will open and Select the ‘custom’ option and click Next.  --->  ( Screenshot: https://prnt.sc/136rd1o )
+
+In the left-hand side again, go to the option ‘Scope’.   --->  ( Screenshot: https://prnt.sc/136rfl4 )
+
+Add the IP address and click on the ‘Ok’ button.   --->  ( Screenshot: https://prnt.sc/136ri3v )
+
+**** That is how you add an IP address to the windows firewall. ****
