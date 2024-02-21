@@ -30,7 +30,10 @@ To manually scan from Windows SHELL use the below command:
 Dism.exe /online /Cleanup-Image /StartComponentCleanup
 ```
 
-https://prnt.sc/uLSAojVfYf9o
-https://prnt.sc/wKD7OftDPwTu
-https://prnt.sc/d8FRxdKaM_Dt
-https://prnt.sc/Z-2SypWtAqJw
+Screenshot 1: https://prnt.sc/uLSAojVfYf9o
+
+Screenshot 2: https://prnt.sc/wKD7OftDPwTu
+
+Screenshot 3: https://prnt.sc/d8FRxdKaM_Dt
+
+Screenshot 4: https://prnt.sc/Z-2SypWtAqJw
