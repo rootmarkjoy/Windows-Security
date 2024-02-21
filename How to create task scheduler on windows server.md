@@ -1,6 +1,6 @@
 #### To create a task scheduler for running DISM cleanup in Windows Server, you can follow these steps:
 
-[b]Open Task Scheduler:[/d] Press Win + R to open the Run dialog, then type taskschd.msc and press Enter.
+Open Task Scheduler: Press Win + R to open the Run dialog, then type taskschd.msc and press Enter.
 
 Create a New Task: In the Task Scheduler, navigate to the right-hand pane and select "Create Basic Task" or "Create Task" depending on your preference.
 
