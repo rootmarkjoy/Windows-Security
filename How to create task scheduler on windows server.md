@@ -27,6 +27,10 @@ With these steps, you'll have created a task scheduler that runs the DISM cleanu
 
 To manually scan from Windows SHELL use the below command:
 ```sh
-
+Dism.exe /online /Cleanup-Image /StartComponentCleanup
 ```
 
+https://prnt.sc/uLSAojVfYf9o
+https://prnt.sc/wKD7OftDPwTu
+https://prnt.sc/d8FRxdKaM_Dt
+https://prnt.sc/Z-2SypWtAqJw
