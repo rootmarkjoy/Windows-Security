@@ -30,7 +30,3 @@ To manually scan from Windows SHELL use the below command:
 
 ```
 
-https://hw-screenshots.sea-proxy.windystorage.com/screenshots/2024-02-21_02-59-12_6eff3256-c151-4d1a-9525-9a6a75043fb8.png
-https://hw-screenshots.sea-proxy.windystorage.com/screenshots/2024-02-21_02-59-40_f994f3a2-8a0d-4c14-a41b-3d34a8ea35d7.png
-https://hw-screenshots.sea-proxy.windystorage.com/screenshots/2024-02-21_03-00-09_ef6e4591-0720-4fed-a7c7-6b6f999396b1.png
-https://hw-screenshots.sea-proxy.windystorage.com/screenshots/2024-02-21_01-13-37_ce4fdaa3-2a37-4411-a1fb-e68559558bc0.png
