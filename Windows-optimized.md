@@ -1,4 +1,4 @@
-Windspeed Windows Server 2008/2012
+Windows Server 2008/2012
 IIS 7/8
 
 
@@ -11,10 +11,10 @@ Output caching allows you to manage output caching rules and to control the cach
 For more information about configuring output caching, see Configuring Output Caching in IIS 7.
 
 #### Enabled ASP Feature in IIS
-This enables doing the further settings like Threads per processor limit etc.
+This enables doing further settings like Threads per processor limit etc.
 
 #### Threads per Processor limit
-This setting was by default set to 25, according the load you may extended it to 100.
+This setting was by default set to 25, according to the load you may extended it to 100.
 
 #### Queue Length Property – Value
  is 3000 by default, but now we have set it 400 because this property  is supposed to be 4*Thread Per Processor hence coming out to be 400.
