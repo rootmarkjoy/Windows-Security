@@ -6,7 +6,7 @@
 
 Open Command Prompt as Administrator:
 
-``sh
+```sh
 Press Win + X and select Command Prompt (Admin) or Windows PowerShell (Admin).
 ```
 
@@ -14,7 +14,7 @@ Execute Update Commands:
 
 Type the following commands one by one and press Enter after each:
 
-``sh
+```sh
 wuauclt /detectnow
 wuauclt /updatenow
 ```
