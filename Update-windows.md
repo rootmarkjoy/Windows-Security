@@ -89,3 +89,42 @@ winget upgrade --all
 ```
 
 It will scan and update all the software along with outdated software as well.
+
+
+#################################################
+
+### How to do it through PowerShell
+
+Press Windows key + X
+
+Click Windows PowerShell (Admin)
+
+At the prompt, type each of the following then hit Enter:
+
+```sh
+Install-Module PSWindowsUpdate
+Get-WindowsUpdate
+Install-WindowsUpdate
+```
+
+You can also do it from the command line:
+
+Open Start, type: CMD
+Right click CMD
+Click Run as administrator
+
+Type in at the prompt OR Copy and Paste these one at a time : (Hit enter after each)
+
+Run the following command to check for new updates:
+
+```sh
+wuauclt /detectnow
+```
+
+Run the following command to install new updates
+
+```sh
+wuauclt /updatenow
+```
+
+Reference link: https://www.itechtics.com/run-windows-update-cmd/
