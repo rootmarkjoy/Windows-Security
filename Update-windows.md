@@ -39,3 +39,37 @@ usoclient StartDownload
 usoclient StartInstall
 usoclient RefreshSettings
 ```
+
+These usoclient commands initiate a scan for updates, download them, and install them.
+
+Method 3: Using PowerShell Commands
+
+Open PowerShell as Administrator:
+
+```sh
+Press Win + X and select Windows PowerShell (Admin).
+```
+
+Execute Update Commands:
+
+Type the following PowerShell script and press Enter:
+
+```sh
+Install-Module PSWindowsUpdate
+Import-Module PSWindowsUpdate
+Get-WindowsUpdate
+Install-WindowsUpdate
+```
+
+This script uses the PSWindowsUpdate module to check for and install updates.
+
+#### Notes:
+Restart Requirement: Some updates may require a system restart. You can trigger a restart using the following command:
+
+```sh
+shutdown /r /t 0
+```
+
+Administrator Privileges: Running Command Prompt or PowerShell as an administrator is crucial for these commands to execute successfully.
+
+These methods should help you manage Windows updates directly through the command line, providing a more automated and scriptable approach.
