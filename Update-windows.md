@@ -73,3 +73,19 @@ shutdown /r /t 0
 Administrator Privileges: Running Command Prompt or PowerShell as an administrator is crucial for these commands to execute successfully.
 
 These methods should help you manage Windows updates directly through the command line, providing a more automated and scriptable approach.
+
+#################################################
+
+Open Command Prompt as Administrator:   (Window + S)
+
+```sh
+winget upgrade
+```
+
+It will scan and update outdated software on windows.
+
+```sh
+winget upgrade --all
+```
+
+It will scan and update all the software along with outdated software as well.
