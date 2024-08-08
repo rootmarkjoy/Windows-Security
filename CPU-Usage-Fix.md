@@ -4,6 +4,12 @@
 
 #### Open (Admin) CMD window
 
+#### First switch to:
+
+```sh
+C:\WINDOWS\system32>
+```
+
 #### Copy this string and hit enter:
 
 ```sh
