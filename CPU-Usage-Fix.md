@@ -1,19 +1,19 @@
-# 100% cpu usage after windows update.
+# 100% CPU usage after Windows update. How to Fix this issue by the below steps.
 
-Run the following two commands, which sets the IDLEDISABLE setting back to "0" and then re-applies the power management configuration.
+#### Run the following two commands, which set the IDLEDISABLE setting back to "0" and then re-applies the power management configuration.
 
-Open (Admin) CMD window
+#### Open (Admin) CMD window
 
-Copy this string and hit enter:
+#### Copy this string and hit enter:
 
-``sh
+```sh
 PowerCfg /SETACVALUEINDEX SCHEME_CURRENT SUB_PROCESSOR IDLEDISABLE 000
 ```
 
-Then copy this string and hit enter:
+#### Then copy this string and hit enter:
 
-``sh
+```sh
 PowerCfg /SETACTIVE SCHEME_CURRENT
 ```
 
-DONE! 100% CPU issue gone showing real percentage load
+#### DONE! The 100% CPU issue is gone showing a real percentage load.
