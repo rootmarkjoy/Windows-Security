@@ -12,7 +12,13 @@ Action: Choose "Start a Program" as the action for the task.
 
 Program/Script: Browse and select the path to dism.exe. Usually, it is located in C:\Windows\System32\dism.exe.
 
-Add Arguments (optional): In the "Add arguments (optional)" field, add the cleanup command. For disk cleanup, you can use the /online /Cleanup-Image /StartComponentCleanup flags.
+Add Arguments (optional): In the "Add arguments (optional)" field, add the cleanup command. 
+
+For disk cleanup, you can use the /online /Cleanup-Image /StartComponentCleanup flags.
+
+```sh
+Dism.exe /online /Cleanup-Image /StartComponentCleanup
+```
 
 Start in (optional): You can set the working directory if needed, typically it will be C:\Windows\System32\.
 
