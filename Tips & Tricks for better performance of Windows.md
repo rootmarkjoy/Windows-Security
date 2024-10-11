@@ -17,13 +17,13 @@ Select the Start  button, > then select Settings  > Windows Update  > Advanced o
 #### To Delete All Temporary Files
 
 ```sh
-Press window + r keys at the same time to open the Run window. Type '%temp%', then press ENTER
+Press **Windows + R keys** at the same time to open the Run window. Type **%temp%**, then press ENTER
 ```
 
 #### To use the cleanmgr command to free up space on your Windows computer, you can
 
 ```sh
-press the Windows and R keys at the same time to open the Run window. Type <b>cleanmgr</b>, then press ENTER
+Press the **Windows + R keys** at the same time to open the Run window. Type **cleanmgr**, then press ENTER
 ```
 
 #### Or
